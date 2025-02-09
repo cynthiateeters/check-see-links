@@ -1,0 +1,29 @@
+{
+  "name": "@cynthiateeters/check-see-links",
+  "version": "1.0.0",
+  "description": "CLI tool to check @see links in tracked JavaScript files",
+  "main": "index.js",
+  "bin": {
+    "check-see-links": "./index.js"
+  },
+  "scripts": {
+    "test": "vitest",
+    "lint": "eslint .",
+    "check-links": "node index.js"
+  },
+  "keywords": [
+    "mdn",
+    "links",
+    "cli",
+    "javascript",
+    "dev"
+  ],
+  "author": "Cynthia Teeters <cynthiateeters@gmail.com> (https://github.com/cynthiateeters)",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "eslint": "^9.20.0",
+    "globals": "^15.14.0",
+    "vitest": "^3.0.5"
+  }
+}

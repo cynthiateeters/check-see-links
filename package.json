@@ -7,7 +7,7 @@
     "check-see-links": "./index.js"
   },
   "scripts": {
-    "test": "vitest",
+    "test": "vitest --run",
     "lint": "eslint .",
     "check-links": "node index.js"
   },

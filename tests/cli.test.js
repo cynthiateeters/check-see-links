@@ -5,7 +5,7 @@ import path from 'path';
 describe('check-see-links CLI', () => {
   it('should exit with code 0 and process example.js', (done) => {
     // Resolve the path to the CLI script.
-    const cliPath = path.resolve(__dirname, '../check-see-links.js');
+    const cliPath = path.resolve(__dirname, '../index.js');
     // Set the working directory to the folder containing example.js (src folder).
     const cwd = path.resolve(__dirname, '../src');
 

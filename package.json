@@ -18,6 +18,10 @@
     "javascript",
     "dev"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cynthiateeters/check-see-links.git"
+  },
   "author": "Cynthia Teeters <cynthiateeters@gmail.com> (https://github.com/cynthiateeters)",
   "license": "MIT",
   "devDependencies": {

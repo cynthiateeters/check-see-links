@@ -48,8 +48,8 @@ async function checkLinks() {
       const lines = content.split('\n');
       for (const line of lines) {
         if (line.includes('@see')) {
-          // Extract URLs (assumes URLs are enclosed in quotes)
-          const regex = /https?:\/\/[^"]+/g;
+          // Extract URLs: This regex matches URLs starting with http(s) and continues until whitespace.
+          const regex = /https?:\/\/\S+/g;
           let match;
           while ((match = regex.exec(line)) !== null) {
             const url = match[0];
